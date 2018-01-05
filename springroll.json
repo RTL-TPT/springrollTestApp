@@ -1,0 +1,39 @@
+{
+	"name": "PIXISandbox",
+	"displayName": "PIXISandbox",
+	"version": "0.0.1",
+	"config": "src/config",
+	"main": [
+		"src/main.js"
+	],
+	"libraries": [
+		"components/normalize-less/normalize.less",
+		"components/preloadjs/lib/preloadjs.min.js",
+		"components/bellhop/dist/bellhop.min.js",
+		"components/pixi.js/bin/pixi.min.js",
+		"components/springroll/dist/core.min.js",
+		"components/springroll/dist/core.min.css",
+		"components/springroll/dist/modules/container-client.min.js",
+		"components/springroll/dist/modules/animation.min.js",
+		"components/springroll/dist/modules/pixi-display.min.js",
+		"components/springroll/dist/modules/pixi-animation.min.js",
+		"components/springroll/dist/modules/pixi-spine.min.js",
+		"components/springroll/dist/modules/pixi-ui.min.js"
+	],
+	"librariesDebug": [
+		"components/normalize-less/normalize.less",
+		"components/preloadjs/lib/preloadjs.combined.js",
+		"components/bellhop/dist/bellhop.js",
+		"components/pixi.js/bin/pixi.js",
+		"components/springroll/dist/core.js",
+		"components/springroll/dist/core.css",
+		"components/springroll/dist/modules/debug.js",
+		"components/springroll/dist/modules/debug.css",
+		"components/springroll/dist/modules/container-client.js",
+		"components/springroll/dist/modules/animation.js",
+		"components/springroll/dist/modules/pixi-display.js",
+		"components/springroll/dist/modules/pixi-animation.js",
+		"components/springroll/dist/modules/pixi-spine.js",
+		"components/springroll/dist/modules/pixi-ui.js"
+	]
+}

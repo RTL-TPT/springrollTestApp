@@ -1,0 +1,18 @@
+{
+	"name": "PIXISandbox",
+	"version": "0.0.1",
+	"dependencies": {
+		"normalize-less": "*",
+		"springroll": "~0.4",
+		"bellhop": "*",
+		"pixi.js": "https://github.com/SpringRoll/pixi.js.git"
+	},
+	"ignore": [
+		".gitignore",
+		".gitattributes",
+		"src",
+		"springroll.json",
+		"Gruntfile.js",
+		"package.js"
+	]
+}
