@@ -6,7 +6,7 @@
 
 	// Create a new application
 	var app = new Application({
-		name: "SpringrollPrototype",
+		name: "SpringrollTestApp",
 		canvasId: "stage",
 		display: Display,
 		displayOptions:	{
