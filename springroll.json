@@ -1,6 +1,6 @@
 {
-	"name": "SpringrollPrototype",
-	"displayName": "SpringrollPrototype",
+	"name": "SpringrollTestApp",
+	"displayName": "SpringrollTestApp",
 	"version": "0.0.1",
 	"config": "src/config",
 	"main": [
