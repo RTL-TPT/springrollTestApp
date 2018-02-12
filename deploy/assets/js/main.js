@@ -1,0 +1,1 @@
+!function(){var a=include("springroll.Application"),b=include("springroll.easeljs.EaselJSDisplay"),c=new a({name:"SpringrollPrototype",canvasId:"stage",display:b,displayOptions:{clearView:!0}});c.on("init",function(){}),window.app=c}();

@@ -1,0 +1,40 @@
+{
+  "name": "springroll-cursor",
+  "version": "0.2.0",
+  "main": "dist/modules/easeljs-cursor.min.js",
+  "dependencies": {
+    "springroll": "*"
+  },
+  "devDependencies": {
+    "easeljs": "https://github.com/SpringRoll/EaselJS.git",
+    "tweenjs": "https://github.com/SpringRoll/TweenJS.git",
+    "google-code-prettify": "*",
+    "bind-polyfill": "*"
+  },
+  "ignore": [
+    "Gruntfile.js",
+    "tasks",
+    "examples",
+    "docs",
+    "src",
+    "test",
+    "tools",
+    ".bowerrc",
+    ".editorconfig",
+    ".travis.yml",
+    ".gitattributes",
+    "library.json",
+    "package.json",
+    ".gitignore"
+  ],
+  "homepage": "https://github.com/SpringRoll/Cursor",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.0",
+    "commit": "4598465f4074de7fab67f8ca9659cfe39744a3a7"
+  },
+  "_source": "https://github.com/SpringRoll/Cursor.git",
+  "_target": "*",
+  "_originalSource": "springroll-cursor"
+}
