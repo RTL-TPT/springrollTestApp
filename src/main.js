@@ -2,11 +2,11 @@
 
 	// Library depencencies
 	var Application = include('springroll.Application'),
-		Display = include('springroll.pixi.PixiDisplay');
+		Display = include('springroll.easeljs.EaselJSDisplay');
 
 	// Create a new application
 	var app = new Application({
-		name: "PIXISandbox",
+		name: "SpringrollPrototype",
 		canvasId: "stage",
 		display: Display,
 		displayOptions:	{
