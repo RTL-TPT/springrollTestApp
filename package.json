@@ -3,6 +3,6 @@
 	"version": "0.0.1",
 	"dependencies": {
 		"grunt": "*",
-		"grunt-springroll": "^0.7.10"
+		"grunt-springroll": "*"
 	}
 }
