@@ -37680,6 +37680,7 @@ var tptTelemetry = (function(){
 		g_telemetry_cache.push(eventObj); //store event info locally
 		sendEvent(appRef, "telemetry_save", eventObj); //send event to container
 	};
+	
 	//create csv report of local telemetry event cache
 	var createLocalReport = function() {
 		var reportKeys = Object.keys(empty_tobj);
@@ -37701,7 +37702,7 @@ var tptTelemetry = (function(){
 
 		//file out
 		let f = new Blob([blobout], {type: "text/plain;charset=utf-8"});
-		saveAs(f, "elephantTelemetry.csv");
+		saveAs(f, "SampleTelemetry.csv");
 	};
 
 	//Allow user to type "print" to generate telemetry csv
