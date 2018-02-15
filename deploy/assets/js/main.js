@@ -4,7 +4,10 @@
 	var Application = include('springroll.Application'),
 		Texture = include('PIXI.Texture'),
 		PixiDisplay = include('springroll.pixi.PixiDisplay'),
-		PixiButton = include('springroll.pixi.Button');
+		PixiButton = include('springroll.pixi.Button'),
+		jQuery = include("jQuery"),
+		saveAs = include("saveAs"),
+		telemetry = include('tptTelemetry');
 
 	// Create a new application
 	var app = new Application({
@@ -28,6 +31,7 @@
 	app.on('init', function()
 	{
 		this.initPixi();
+		tptTelemetry.createEvent(this, "start_game");
 	});
 	
 	
@@ -66,8 +70,9 @@
 	
 	app.toggleDisplay = function(showPixi)
 	{
-		pixi.enabled = showPixi;
-		pixi.visible = showPixi;
+		console.log("Pressed the button");
+		stage.enabled = showPixi;
+		stage.visible = showPixi;
 	};
 	
 }());
