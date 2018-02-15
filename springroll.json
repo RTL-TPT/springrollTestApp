@@ -28,7 +28,10 @@
 		"components/springroll/dist/modules/pixi-animation.min.js",
 		"components/springroll/dist/modules/pixi-spine.min.js",
 		"components/springroll/dist/modules/pixi-ui.min.js",
-		"components/springroll-keyboard/dist/keyboard.min.js"
+		"components/springroll-keyboard/dist/keyboard.min.js",
+		"/src/tptTelemetry.js",
+		"/src/FileSaver.min.js",
+		"/src/jquery-1.12.4.min.js"
 	],
 	"librariesDebug": [
 		"components/normalize-less/normalize.less",
@@ -54,7 +57,10 @@
 		"components/springroll/dist/modules/pixi-animation.js",
 		"components/springroll/dist/modules/pixi-spine.js",
 		"components/springroll/dist/modules/pixi-ui.js",
-		"components/springroll-keyboard/dist/keyboard.js"
+		"components/springroll-keyboard/dist/keyboard.js",
+		"src/FileSaver.min.js",
+		"src/tptTelemetry.js",
+		"src/jquery-1.12.4.min.js"
 	],
 	"librariesCopy": {
 		"components/soundjs/lib/FlashAudioPlugin.swf": "deploy/assets/swfs/"
